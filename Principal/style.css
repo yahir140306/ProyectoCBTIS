@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+#logocbtis {
+    width: 100%;
+}
+
+body {
+    background: #1b192a;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(6, 6, 6);
+    cursor: pointer;
+}
+
+a:hover {
+    transition: all .5s ease-in-out;
+    border-bottom: 0.2rem solid #91b2ff;
+    color: #2b21bb;
+
+}
+
+li {
+    list-style: none;
+    margin: 0.3em;
+}
+
+ul {
+    background: grey;
+    border-radius: 0.4em;
+}
+
+.barras-opcion {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px 20px;
+    background-color: grey;
+}
+
+li {
+    padding: 3px;
+}
+
+nav>li {
+    float: left;
+}
+
+nav li ul {
+    display: none;
+    position: absolute;
+}
+
+nav li:hover>ul {
+    display: block;
+}
+
+nav li ul li {
+    position: relative;
+}
+
+nav li ul li ul {
+    right: -140px;
+    top: 0;
+}
+
+p {
+    color: aliceblue;
+}
